@@ -40,7 +40,7 @@ pip install -e .
 
 # 5️⃣ Run end‑to‑end demo
 python scripts/run_all.py
-
+```
 ## 📦 项目概述
 
 | 项目 | 描述 |
