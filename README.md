@@ -15,7 +15,7 @@
 
 > *Peak‑hour forecast error < 5 % (IEEE PES standard).*
 
-> 👉 Take a look at the [example output](results/peak_hour_comparison.png).
+> 👉 Take a look at the [example output](load_forecast_result.png).
 
 ---
 
