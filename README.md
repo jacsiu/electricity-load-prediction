@@ -52,7 +52,7 @@ jupyter notebook electricity-load-prediction.ipynb
 
 | Plot | Description |
 |------|-------------|
-| series.png | Raw load with trend & seasonal components |
+| series.png(series.png) | Raw load with trend & seasonal components |
 | acf_analysis.png | Residual ACF  diagnostics |
 | load_forecast_result.png | 24‑hour forecast & 95 % confidence band |
 | periodic_check.png | Plot the data from the past 48 hours to visually check for periodicity. |
