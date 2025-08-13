@@ -66,3 +66,8 @@ jupyter notebook electricity-load-prediction.ipynb
 |----------|--------|
 | How to add data? | Edit `raw_load_data.csv` and run again. |
 | Why not use all data ? | All data is heavier and not needed for 24‑h horizon. |
+
+## 📞 Contact
+
+- Email: 3474172877@qq.com  
+- Issue tracker: https://github.com/owner/repo/issues
