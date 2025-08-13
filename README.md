@@ -41,10 +41,12 @@ pip install -e .
 # 5️⃣ Run end‑to‑end demo
 python scripts/run_all.py
 ```
+## 📦 Project Overview
 
-📦 Project Overview
-Item	Description
-Goal	24‑hour electricity load forecasting with < 5 % peak‑hour error
-Core algorithm	SARIMA(1,0,1) × (1,0,1,24) (ADT‑controlled differencing)
-Data	data/hourly_load_data.csv – 10 k+ hourly samples (2015‑2020)
-Dependencies	pandas, statsmodels, scikit‑learn, joblib, matplotlib, pytest
+| Item | Description |
+|------|------|
+| Goal | 24‑hour electricity load forecasting with < 5 % peak‑hour error|
+| Core algorithm | SARIMA(1,0,1) × (1,0,1,24) (ADT‑controlled differencing) |
+| Data | `data/hourly_load_data.csv`10 k+ hourly samples (2002‑2018) |
+| Dependencies | pandas、statsmodels、scikit‑learn、joblib、matplotlib |
+
