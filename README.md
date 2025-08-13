@@ -74,4 +74,5 @@ jupyter notebook electricity-load-prediction.ipynb
 ## 📞 Contact
 
 - Email: 3474172877@qq.com  
-- Issue tracker: [https://github.com/owner/repo/issues](https://github.com/jacsiu/electricity-load-prediction/tree/main)
+- Issue tracker: [[https://github.com/owner/repo/issues](https://github.com/jacsiu/electricity-load-prediction/tree/main)
+](https://github.com/jacsiu/electricity-load-prediction)
