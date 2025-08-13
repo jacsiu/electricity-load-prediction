@@ -50,3 +50,11 @@ python scripts/run_all.py
 | Data | `data/hourly_load_data.csv`10 k+ hourly samples (2002‑2018) |
 | Dependencies | pandas、statsmodels、scikit‑learn、joblib、matplotlib |
 
+# 📈 Results & Visualisation
+
+| Plot | Description |
+|------|-------------|
+| results/images/series.png | Raw load with trend & seasonal components |
+| results/images/residual_acf.png | Residual ACF / PACF diagnostics |
+| results/images/forecast_24h.png | 24‑hour forecast & 95 % confidence band |
+| results/images/metrics.png | Summary table of MAE, MAPE, AIC, runtime |
