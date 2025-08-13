@@ -53,3 +53,16 @@ jupyter notebook electricity-load-prediction.ipynb
 | load_forecast_result.png | 24‑hour forecast & 95 % confidence band |
 | periodic_check.png | Plot the data from the past 48 hours to visually check for periodicity. |
 
+## 🤝 Contributing
+
+1. Fork & clone
+2. Create feature branch
+3. Run tests: `pytest`
+4. Submit PR
+
+## ❓ FAQ
+
+| Question | Answer |
+|----------|--------|
+| How to add data? | Edit `raw_load_data.csv` and run again. |
+| Why not use all data ? | All data is heavier and not needed for 24‑h horizon. |
