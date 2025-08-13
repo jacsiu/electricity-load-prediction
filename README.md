@@ -41,11 +41,10 @@ pip install -e .
 # 5️⃣ Run end‑to‑end demo
 python scripts/run_all.py
 ```
-## 📦 项目概述
 
-| 项目 | 描述 |
-|------|------|
-| 目标 | 24‑小时电力负荷预测，峰值误差 < 5% |
-| 核心模型 | SARIMA(1,0,1) × (1,0,1,24)（ADF 动态差分） |
-| 数据 | `data/hourly_load_data.csv`（2015‑2020，10k+ 行） |
-| 依赖 | pandas、statsmodels、scikit‑learn、joblib、matplotlib |
+📦 Project Overview
+Item	Description
+Goal	24‑hour electricity load forecasting with < 5 % peak‑hour error
+Core algorithm	SARIMA(1,0,1) × (1,0,1,24) (ADT‑controlled differencing)
+Data	data/hourly_load_data.csv – 10 k+ hourly samples (2015‑2020)
+Dependencies	pandas, statsmodels, scikit‑learn, joblib, matplotlib, pytest
