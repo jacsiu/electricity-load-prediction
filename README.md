@@ -6,6 +6,9 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square)
 ![License](https://img.shields.io/github/license/nnnnn/load-forecast-sys?style=flat-square)
 
+## 📝 Project Background
+Accurate electricity load forecasting is critical for grid stability, energy allocation, and cost reduction. This project addresses the need for lightweight yet reliable short-term forecasting tools, focusing on 24-hour horizons with strict peak-hour accuracy (compliant with IEEE PES standards). It balances precision and computational efficiency, making it suitable for small-to-medium grid operators or edge computing environments.
+
 ## 📊 Key Benchmark
 | Metric | Value | Baseline | Δ |
 |--------|-------|----------|---|
@@ -42,6 +45,7 @@ jupyter notebook electricity-load-prediction.ipynb
 | Goal | 24‑hour electricity load forecasting with < 5 % peak‑hour error|
 | Core algorithm | SARIMA(1,0,1) × (1,0,1,24) (ADT‑controlled differencing) |
 | Data | `data/hourly_load_data.csv`10 k+ hourly samples (2002‑2018) |
+| **Data Source** | Publicly available dataset from [PJM Hourly Energy Consumption Data](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption) |
 | Dependencies | pandas、statsmodels、scikit‑learn、joblib、matplotlib |
 
 # 📈 Results & Visualisation
