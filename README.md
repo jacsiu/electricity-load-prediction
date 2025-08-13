@@ -54,7 +54,7 @@ python scripts/run_all.py
 
 | Plot | Description |
 |------|-------------|
-| results/images/series.png | Raw load with trend & seasonal components |
-| results/images/residual_acf.png | Residual ACF / PACF diagnostics |
-| results/images/forecast_24h.png | 24‑hour forecast & 95 % confidence band |
-| results/images/metrics.png | Summary table of MAE, MAPE, AIC, runtime |
+| series.png | Raw load with trend & seasonal components |
+| acf_analysis.png | Residual ACF  diagnostics |
+| load_forecast_result.png | 24‑hour forecast & 95 % confidence band |
+| periodic_check.png | Plot the data from the past 48 hours to visually check for periodicity. |
