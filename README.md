@@ -23,8 +23,8 @@
 
 ```bash
 # 1️⃣ Clone repo
-git clone https://github.com/nnnnn/load-forecast-sys.git
-cd load-forecast-sys
+git clone [https://github.com/nnnnn/load-forecast-sys.git](https://github.com/jacsiu/electricity-load-prediction/tree/main)
+cd electricity-load-prediction.ipynb
 
 # 2️⃣ Create virtual env (Linux/Mac)
 python -m venv env
