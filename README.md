@@ -22,24 +22,18 @@
 ## 🚀 Quick Start
 
 ```bash
-# 1️⃣ Clone repo
-git clone [https://github.com/nnnnn/load-forecast-sys.git](https://github.com/jacsiu/electricity-load-prediction/tree/main)
-cd electricity-load-prediction.ipynb
+git clone https://github.com/jacsiu/electricity-load-prediction/tree/main
+cd electricity-load-prediction  
 
-# 2️⃣ Create virtual env (Linux/Mac)
 python -m venv env
 source env/bin/activate
 
-# 3️⃣ Create virtual env (Windows)
 # .\env\Scripts\activate
 
-# 4️⃣ Install dependencies
 pip install -r requirements.txt
-# OR, for editable install
-pip install -e .
 
-# 5️⃣ Run end‑to‑end demo
-python scripts/run_all.py
+# 5️⃣ 启动 Jupyter 笔记本
+jupyter notebook electricity-load-prediction.ipynb
 ```
 ## 📦 Project Overview
 
